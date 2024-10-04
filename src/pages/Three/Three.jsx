@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Three = () => {
   return <>
-    <h1>Three Page</h1>
+    three index page
   </>
 }
 

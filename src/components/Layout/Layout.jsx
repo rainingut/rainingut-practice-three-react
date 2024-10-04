@@ -25,9 +25,14 @@ const items = [
     key: 'three-pages',
     children: [
       {
-        label: <Link to='/three' >Three Page</Link>,
+        label: <Link to='/three' >Three Index</Link>,
         key: 'three',
         link: '/three',
+      },
+      {
+        label: <Link to='/three-simple' >Simple Load</Link>,
+        key: 'three-simple',
+        link: '/three-simple',
       },
     ],
   },

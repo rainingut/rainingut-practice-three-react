@@ -4,13 +4,15 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import HomePage from './pages/Home/Home';
 import ThreePage from './pages/Three/Three';
 import TestPage from './pages/Test/Test';
+import ThreeSimple from './pages/Three/Three-Simple';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<HomePage />} />
-      <Route path="three" element={<ThreePage />} />
       <Route path="test" element={<TestPage />} />
+      <Route path="three" element={<ThreePage />} />
+      <Route path="three-simple" element={<ThreeSimple />} />
     </Route>
   )
 )
